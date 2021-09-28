@@ -1,18 +1,12 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
-
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# ignore all node_modules folders and nested folders & files
+node_modules
+# ignore the specific VS Code configuration parameters
+.vscode
+# ignore the specific packages versions installed by the developper
+.package-lock.json
+# ignore the development environment variables (if any)
+.env
+# ignore all dist directories files (and subdirectories) from .gitignore
+dist/*
+# but (re)include specific dist directory files, e.g.
+#!frontend-essentials/step-1/dist
